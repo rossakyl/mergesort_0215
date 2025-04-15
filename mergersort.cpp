@@ -78,7 +78,7 @@ void mergeSort(int low, int high)
     
     while (i <= mid) // step 4.f
     {
-        b[k] = arr[i]; // step f.f.i
+        B[k] = arr[i]; // step f.f.i
         i++;           // step 4.f.ii
         k++;           // step 4.f.iii
     }
@@ -103,6 +103,6 @@ void output ()
 int main ()
 {
     input();
-    mergesort(0. n - 1);
+    mergeSort(0, n - 1);
     output();
 }
